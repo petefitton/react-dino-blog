@@ -71,9 +71,6 @@ class Commentpost extends Component {
 class Button extends Component {
   constructor (props) {
     super();
-    this.state = {
-      // 
-    }
   }
 
   render () {
@@ -103,18 +100,6 @@ class App extends Component {
       }
     })
   }
-
-    // let filterValue = e.target.value;
-  // this.setState((prevState, props) => {
-  //   let filteredFruitList = props.fruits.filter(fruit =>
-  //     fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
-  //     // return new state with the filtered fruit list and the new value of filtered
-  //     return {
-  //       fruitsToDisplay: filteredFruitList,
-  //       filterValue
-  //     }
-  //   }
-  // )
 
   render () {
     return (
